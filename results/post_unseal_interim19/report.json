@@ -1,0 +1,59 @@
+{
+  "evaluation": "POST-UNSEAL DEVELOPMENT \u2014 NOT FRESH HELDOUT",
+  "model_sha256": "90c5a903a3ea7639f5ae31a4de3685ed2aff753b55a66e7d0c6a4f30530ad885",
+  "n_pairs": 50,
+  "paired_accuracy": 0.96,
+  "paired_ci": [
+    0.9,
+    1.0
+  ],
+  "metrics": {
+    "n_ai": 50,
+    "n_real": 50,
+    "auroc": 0.8436,
+    "tp": 41,
+    "fp": 12,
+    "recall": 0.82,
+    "far": 0.24,
+    "recall_ci": [
+      0.6920368054529739,
+      0.902299172675462
+    ],
+    "far_ci": [
+      0.14297252401872207,
+      0.37412949375192367
+    ]
+  },
+  "frozen": {
+    "threshold": 0.0022505728993564844,
+    "temperature": 0.9262443767025519,
+    "timestamp": "2026-11-16T00:20:29.631868+00:00",
+    "git_hash": "481aecd3515d2073d3ff626983011136e4f81adb+dirty",
+    "model_sha256": "90c5a903a3ea7639f5ae31a4de3685ed2aff753b55a66e7d0c6a4f30530ad885",
+    "input_size": 512,
+    "arch": "efficientnet_b0",
+    "pretrained_weights_loaded": true,
+    "max_val_far": 0.05,
+    "train_counts": {
+      "n": 3012,
+      "ai": 634,
+      "real": 2378,
+      "by_source": {
+        "wildreceipt": 1267,
+        "cord_v2": 800,
+        "gpt4o_receipt": 619,
+        "commons": 311,
+        "newgen_fakes": 15
+      }
+    },
+    "val_counts": {
+      "n": 911,
+      "ai": 161,
+      "real": 750
+    },
+    "smoke_test": false,
+    "pad_square": true,
+    "epochs": 3,
+    "splits_file": "data/splits_v2_interim19.csv"
+  }
+}

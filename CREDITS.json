@@ -1,0 +1,64 @@
+{
+  "compact": [
+    {
+      "label": "GPT4o-Receipt",
+      "url": "https://huggingface.co/datasets/Scam-AI/gpt4o-receipt"
+    },
+    {
+      "label": "CORD v2",
+      "url": "https://huggingface.co/datasets/naver-clova-ix/cord-v2"
+    },
+    {
+      "label": "Commons",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+    },
+    {
+      "label": "WildReceipt",
+      "url": "https://github.com/open-mmlab/mmocr/blob/main/dataset_zoo/wildreceipt/metafile.yml"
+    },
+    {
+      "label": "EfficientNet-B0 / ImageNet",
+      "url": "https://huggingface.co/timm/efficientnet_b0.ra_in1k"
+    },
+    {
+      "label": "timm",
+      "url": "https://github.com/huggingface/pytorch-image-models"
+    },
+    {
+      "label": "PyTorch",
+      "url": "https://pytorch.org/"
+    },
+    {
+      "label": "Gradio",
+      "url": "https://gradio.app/"
+    },
+    {
+      "label": "Tesseract",
+      "url": "https://tesseract-ocr.github.io/"
+    },
+    {
+      "label": "scikit-learn",
+      "url": "https://scikit-learn.org/stable/"
+    },
+    {
+      "label": "OpenAI Codex",
+      "url": "https://openai.com/codex/"
+    },
+    {
+      "label": "OpenAI images",
+      "url": "https://developers.openai.com/api/docs/guides/image-generation"
+    },
+    {
+      "label": "Anthropic Claude",
+      "url": "https://claude.com/product/overview"
+    },
+    {
+      "label": "ReportLab",
+      "url": "https://docs.reportlab.com/"
+    },
+    {
+      "label": "Google Gemini",
+      "url": "https://deepmind.google/models/gemini/"
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "evaluation": "POST-UNSEAL DEVELOPMENT \u2014 NOT FRESH HELDOUT",
+  "v1_model_sha256_verified": "59f86ee31879efb297cc6ae5fddc567c000d71cd55337d1c5760ffd1078ec232",
+  "risks": [
+    "Epoch, temperature and threshold selected on validation; validation estimates optimistic.",
+    "Twins were previously unsealed; these are development results, not fresh heldout.",
+    "Only seven newgen validation fakes and fifty twin pairs; uncertainty remains substantial."
+  ],
+  "runs": {
+    "v2_interim19": {
+      "run_path": "runs/v2_interim19",
+      "eval_path": "results/post_unseal_interim19",
+      "validation": {
+        "val": {
+          "n_ai": 161,
+          "n_real": 750,
+          "auroc": 0.9999420289855073,
+          "tp": 161,
+          "fp": 37,
+          "recall": 1.0,
+          "far": 0.04933333333333333,
+          "recall_ci": [
+            0.9766952031526023,
+            1.0
+          ],
+          "far_ci": [
+            0.03600061307930126,
+            0.06725927600084503
+          ]
+        },
+        "nll": 0.009723879803956635,
+        "temperature": 0.9262443767025519,
+        "threshold": 0.0022505728993564844,
+        "per_source": {
+          "gpt4o_receipt": {
+            "n": 157,
+            "flagged": 157,
+            "rate": 1.0,
+            "ci": [
+              0.9761156317768539,
+              1.0
+            ],
+            "kind": "recall"
+          },
+          "cord_v2": {
+            "n": 200,
+            "flagged": 1,
+            "rate": 0.005,
+            "ci": [
+              0.0008831459893662051,
+              0.02777439986977148
+            ],
+            "kind": "false-alarm"
+          },
+          "commons": {
+            "n": 78,
+            "flagged": 7,
+            "rate": 0.08974358974358974,
+            "ci": [
+              0.044152447186411065,
+              0.17384915591030256
+            ],
+            "kind": "false-alarm"
+          },
+          "wildreceipt": {
+            "n": 472,
+            "flagged": 29,
+            "rate": 0.0614406779661017,
+            "ci": [
+              0.04311608422130097,
+              0.08684649156021962
+            ],
+            "kind": "false-alarm"
+          },
+          "newgen_fakes": {
+            "n": 4,
+            "flagged": 4,
+            "rate": 1.0,
+            "ci": [
+              0.5100999795960008,
+              1.0
+            ],
+            "kind": "recall"
+          }
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "train_loss": 0.20386789999203025,
+            "val_auroc": 0.9997184265010353,
+            "secs": 292
+          },
+          {
+            "epoch": 2,
+            "train_loss": 0.027027468916876258,
+            "val_auroc": 0.9999420289855073,
+            "secs": 536
+          },
+          {
+            "epoch": 3,
+            "train_loss": 0.011815865711787206,
+            "val_auroc": 0.9999089026915113,
+            "secs": 772
+          }
+        ],
+        "best_val_auroc_epoch_select": 0.9999420289855073,
+        "evaluation": "POST-UNSEAL DEVELOPMENT \u2014 NOT FRESH HELDOUT"
+      },
+      "evaluation": {
+        "evaluation": "POST-UNSEAL DEVELOPMENT \u2014 NOT FRESH HELDOUT",
+        "model_sha256": "90c5a903a3ea7639f5ae31a4de3685ed2aff753b55a66e7d0c6a4f30530ad885",
+        "n_pairs": 50,
+        "paired_accuracy": 0.96,
+        "paired_ci": [
+          0.9,
+          1.0
+        ],
+        "metrics": {
+          "n_ai": 50,
+          "n_real": 50,
+          "auroc": 0.8436,
+          "tp": 41,
+          "fp": 12,
+          "recall": 0.82,
+          "far": 0.24,
+          "recall_ci": [
+            0.6920368054529739,
+            0.902299172675462
+          ],
+          "far_ci": [
+            0.14297252401872207,
+            0.37412949375192367
+          ]
+        },
+        "frozen": {
+          "threshold": 0.0022505728993564844,
+          "temperature": 0.9262443767025519,
+          "timestamp": "2026-11-16T00:20:29.631868+00:00",
+          "git_hash": "481aecd3515d2073d3ff626983011136e4f81adb+dirty",
+          "model_sha256": "90c5a903a3ea7639f5ae31a4de3685ed2aff753b55a66e7d0c6a4f30530ad885",
+          "input_size": 512,
+          "arch": "efficientnet_b0",
+          "pretrained_weights_loaded": true,
+          "max_val_far": 0.05,
+          "train_counts": {
+            "n": 3012,
+            "ai": 634,
+            "real": 2378,
+            "by_source": {
+              "wildreceipt": 1267,
+              "cord_v2": 800,
+              "gpt4o_receipt": 619,
+              "commons": 311,
+              "newgen_fakes": 15
+            }
+          },
+          "val_counts": {
+            "n": 911,
+            "ai": 161,
+            "real": 750
+          },
+          "smoke_test": false,
+          "pad_square": true,
+          "epochs": 3,
+          "splits_file": "data/splits_v2_interim19.csv"
+        }
+      }
+    },
+    "v2": {
+      "run_path": "runs/v2",
+      "eval_path": "results/post_unseal_v2",
+      "validation": {
+        "val": {
+          "n_ai": 164,
+          "n_real": 750,
+          "auroc": 0.9999105691056911,
+          "tp": 164,
+          "fp": 37,
+          "recall": 1.0,
+          "far": 0.04933333333333333,
+          "recall_ci": [
+            0.9771117529861488,
+            1.0
+          ],
+          "far_ci": [
+            0.03600061307930126,
+            0.06725927600084503
+          ]
+        },
+        "nll": 0.009448064735924178,
+        "temperature": 0.8201273547899711,
+        "threshold": 0.002383851446211338,
+        "per_source": {
+          "gpt4o_receipt": {
+            "n": 157,
+            "flagged": 157,
+            "rate": 1.0,
+            "ci": [
+              0.9761156317768539,
+              1.0
+            ],
+            "kind": "recall"
+          },
+          "cord_v2": {
+            "n": 200,
+            "flagged": 4,
+            "rate": 0.02,
+            "ci": [
+              0.007804300176394187,
+              0.05028786550519387
+            ],
+            "kind": "false-alarm"
+          },
+          "commons": {
+            "n": 78,
+            "flagged": 4,
+            "rate": 0.05128205128205128,
+            "ci": [
+              0.020120686846503352,
+              0.12456856654052718
+            ],
+            "kind": "false-alarm"
+          },
+          "wildreceipt": {
+            "n": 472,
+            "flagged": 29,
+            "rate": 0.0614406779661017,
+            "ci": [
+              0.04311608422130097,
+              0.08684649156021962
+            ],
+            "kind": "false-alarm"
+          },
+          "newgen_fakes": {
+            "n": 7,
+            "flagged": 7,
+            "rate": 1.0,
+            "ci": [
+              0.6456611570247934,
+              1.0
+            ],
+            "kind": "recall"
+          }
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "train_loss": 0.21304842697677462,
+            "val_auroc": 0.9976666666666667,
+            "secs": 218
+          },
+          {
+            "epoch": 2,
+            "train_loss": 0.03161264167032416,
+            "val_auroc": 0.999609756097561,
+            "secs": 430
+          },
+          {
+            "epoch": 3,
+            "train_loss": 0.01079322382939872,
+            "val_auroc": 0.9999105691056911,
+            "secs": 634
+          }
+        ],
+        "best_val_auroc_epoch_select": 0.9999105691056911,
+        "evaluation": "POST-UNSEAL DEVELOPMENT \u2014 NOT FRESH HELDOUT"
+      },
+      "evaluation": {
+        "evaluation": "POST-UNSEAL DEVELOPMENT \u2014 NOT FRESH HELDOUT",
+        "model_sha256": "4c6025d42117648bee2db23b1d9ecfe0af973cfd73e5f681542109b1998e0911",
+        "n_pairs": 50,
+        "paired_accuracy": 0.92,
+        "paired_ci": [
+          0.84,
+          0.98
+        ],
+        "metrics": {
+          "n_ai": 50,
+          "n_real": 50,
+          "auroc": 0.8988,
+          "tp": 38,
+          "fp": 5,
+          "recall": 0.76,
+          "far": 0.1,
+          "recall_ci": [
+            0.6258705062480764,
+            0.8570274759812778
+          ],
+          "far_ci": [
+            0.0434751239915711,
+            0.21360490334788393
+          ]
+        },
+        "frozen": {
+          "threshold": 0.002383851446211338,
+          "temperature": 0.8201273547899711,
+          "timestamp": "2026-11-16T00:33:20.263605+00:00",
+          "git_hash": "481aecd3515d2073d3ff626983011136e4f81adb+dirty",
+          "model_sha256": "4c6025d42117648bee2db23b1d9ecfe0af973cfd73e5f681542109b1998e0911",
+          "input_size": 512,
+          "arch": "efficientnet_b0",
+          "pretrained_weights_loaded": true,
+          "max_val_far": 0.05,
+          "train_counts": {
+            "n": 3022,
+            "ai": 644,
+            "real": 2378,
+            "by_source": {
+              "wildreceipt": 1267,
+              "cord_v2": 800,
+              "gpt4o_receipt": 619,
+              "commons": 311,
+              "newgen_fakes": 25
+            }
+          },
+          "val_counts": {
+            "n": 914,
+            "ai": 164,
+            "real": 750
+          },
+          "smoke_test": false,
+          "pad_square": true,
+          "epochs": 3,
+          "splits_file": "data/splits_v2.csv"
+        }
+      }
+    }
+  }
+}

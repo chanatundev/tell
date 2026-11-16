@@ -1,0 +1,51 @@
+id,p_real,p_twin,country,capture
+r0011,0.0001583204,0.35098043,Brazil,flat scan
+r0015,6.9079642e-06,0.036739044,China,phone photo
+r0024,0.00087159727,0.53273284,Hong Kong,phone photo
+r0027,0.04052374,0.05439201,Latvia,flat scan
+r0041,0.055330887,0.7171203,Poland,flat scan
+r0048,0.056623932,0.83128214,Australia,phone photo
+r0053,0.0072688386,2.0490661e-05,United States,flat scan
+r0065,0.0021326707,0.68778235,Ireland,phone photo
+r0071,0.0043442277,0.018603746,Germany,flat scan
+r0074,0.015064582,0.025414238,Norway,phone photo
+r0078,0.010079566,0.11958336,South Korea,phone photo
+r0081,5.867972e-05,0.98469895,India,phone photo
+r0093,0.999503,0.9232519,Indonesia,phone photo
+r0097,0.7525144,0.8252112,France,flat scan
+r0102,0.00063198956,0.7099999,Poland,phone photo
+r0108,0.019190183,0.06597029,Austria,phone photo
+r0119,0.00072732224,0.10403803,Taiwan,flat scan
+r0123,0.0013038235,6.839717e-05,Curaçao,phone photo
+r0127,0.00016017303,0.38863978,China,phone photo
+r0151,8.002426e-06,0.08055031,China,phone photo
+r0194,0.62443227,0.46878818,Italy,phone photo
+r0196,0.019979041,0.43142426,Israel,flat scan
+r0198,0.0147110745,0.0033128555,Germany,phone photo
+r0202,2.8305117e-06,0.01796753,Germany,flat scan
+r0209,0.001454299,0.87043315,Japan,phone photo
+r0240,9.996797e-05,0.035703193,Japan,flat scan
+r0261,0.0018494301,0.027499158,Japan,phone photo
+r0283,4.657951e-05,0.008355585,Netherlands,phone photo
+r0303,5.335983e-05,0.0037266978,Netherlands,phone photo
+r0324,0.027138699,0.00928061,Japan,phone photo
+r0326,0.95460045,0.9195246,Japan,phone photo
+r0388,0.00078388094,8.451485e-06,Netherlands,phone photo
+r0472,0.00045338122,0.12651949,Philippines,phone photo
+r0476,0.04766663,0.3316688,Nigeria,phone photo
+r0562,0.0059695398,0.061820444,Poland,flat scan
+r0592,0.04604701,0.2445876,Poland,flat scan
+r0604,0.0533408,0.9471511,Spain,phone photo
+r0607,0.63215816,0.9908721,Russia,phone photo
+r0666,0.00040237495,0.95661145,Thailand,phone photo
+r0674,0.01707083,0.7853474,United Kingdom,phone photo
+r0680,0.08846186,0.74754757,Ukraine,flat scan
+r0691,0.9850358,0.6494981,United States,phone photo
+r0692,0.0074234065,0.5906506,Vietnam,phone photo
+r0693,0.0034572443,0.0008081961,United States,flat scan
+r0695,0.0011883418,0.09094271,United States,flat scan
+r0697,0.00301466,0.07509371,United States,flat scan
+r0746,0.67676,0.14702314,Czech Republic,flat scan
+r0750,0.0006098906,0.00062969886,Taiwan,phone photo
+r0752,3.6829414e-07,0.0005247424,Taiwan,phone photo
+r0753,1.0746146e-06,1.3204274e-06,United Kingdom,phone photo

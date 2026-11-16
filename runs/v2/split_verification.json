@@ -1,0 +1,8 @@
+{
+  "evaluation": "POST-UNSEAL DEVELOPMENT \u2014 NOT FRESH HELDOUT",
+  "rows": 3936,
+  "newgen_train": 25,
+  "newgen_val": 7,
+  "all_normalized_paths_exist": true,
+  "split_sha256": "eb54e6c4a5157cdf15582bc42276093c7701595be33d326dd42649ec6452adca"
+}

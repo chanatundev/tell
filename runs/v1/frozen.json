@@ -1,0 +1,30 @@
+{
+ "threshold": 0.02136654034256935,
+ "temperature": 1.5717020678547842,
+ "timestamp": "2026-11-15T19:53:46.037669+00:00",
+ "git_hash": "341e0b27a7655855b9f57c9180dc50468e74f83f",
+ "model_sha256": "59f86ee31879efb297cc6ae5fddc567c000d71cd55337d1c5760ffd1078ec232",
+ "input_size": 512,
+ "arch": "efficientnet_b0",
+ "pretrained_weights_loaded": true,
+ "max_val_far": 0.05,
+ "train_counts": {
+  "n": 1730,
+  "ai": 619,
+  "real": 1111,
+  "by_source": {
+   "cord_v2": 800,
+   "gpt4o_receipt": 619,
+   "commons": 311
+  }
+ },
+ "val_counts": {
+  "n": 435,
+  "ai": 157,
+  "real": 278
+ },
+ "smoke_test": false,
+ "pad_square": true,
+ "epochs": 3,
+ "splits_file": "data/splits.csv"
+}

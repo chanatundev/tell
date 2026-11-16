@@ -1,0 +1,15 @@
+data/
+heldout_sealed/
+results/
+.venv/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+__pycache__/
+.ipynb_checkpoints/
+commons_candidates.json
+.DS_Store
+runs/
+runs_*.log
+nb_work/

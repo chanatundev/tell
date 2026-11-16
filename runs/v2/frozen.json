@@ -1,0 +1,33 @@
+{
+  "threshold": 0.002383851446211338,
+  "temperature": 0.8201273547899711,
+  "timestamp": "2026-11-16T00:33:20.263605+00:00",
+  "git_hash": "481aecd3515d2073d3ff626983011136e4f81adb+dirty",
+  "model_sha256": "4c6025d42117648bee2db23b1d9ecfe0af973cfd73e5f681542109b1998e0911",
+  "input_size": 512,
+  "arch": "efficientnet_b0",
+  "pretrained_weights_loaded": true,
+  "max_val_far": 0.05,
+  "train_counts": {
+    "n": 3022,
+    "ai": 644,
+    "real": 2378,
+    "by_source": {
+      "wildreceipt": 1267,
+      "cord_v2": 800,
+      "gpt4o_receipt": 619,
+      "commons": 311,
+      "newgen_fakes": 25
+    }
+  },
+  "val_counts": {
+    "n": 914,
+    "ai": 164,
+    "real": 750
+  },
+  "smoke_test": false,
+  "pad_square": true,
+  "epochs": 3,
+  "splits_file": "data/splits_v2.csv",
+  "evaluation": "POST-UNSEAL DEVELOPMENT \u2014 NOT FRESH HELDOUT"
+}
